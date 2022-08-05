@@ -13,7 +13,12 @@ repositories {
 }
 
 dependencies {
-	implementation("org.apache.commons:commons-csv:1.9.0")
+	//doyaaaaaken's kotlin-csv
+	implementation("com.github.doyaaaaaken:kotlin-csv-jvm:1.5.1")
+	//kotlin-grass
+	implementation("io.github.blackmo18:kotlin-grass-core-jvm:1.0.0")
+	implementation("io.github.blackmo18:kotlin-grass-parser-jvm:0.8.0")
+
 	testImplementation(kotlin("test"))
 }
 
