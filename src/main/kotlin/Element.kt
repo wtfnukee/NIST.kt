@@ -21,8 +21,6 @@ data class Element(
 	val MeltingPoint: Double?,
 	val BoilingPoint: Double?,
 	val NumberofIsotopes: Int?,
-	val Discoverer: String?,
-	val Year: Int?,
 	val SpecificHeat: Double?,
 	val NumberofShells: Int?,
 	val NumberofValence: Int?,
